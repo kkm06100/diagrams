@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1909" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,9 +53,9 @@
           <mxGeometry x="534" y="140" width="186" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RlZUK_MxkL_xjFFGA7Wm-17" value="스프링 프레임워크에서 빈을 생성할 때 필요한 기능을 지원한다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="275" width="160" height="55" as="geometry" />
+          <mxGeometry x="230" y="275" width="180" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="RlZUK_MxkL_xjFFGA7Wm-18" value="스프링 빈을 새로 고침 하는 기능을 지원 한다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RlZUK_MxkL_xjFFGA7Wm-18" value="컨텍스트를 새로 고침 하는 기능을 지원 한다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="285" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RlZUK_MxkL_xjFFGA7Wm-19" value="&lt;div&gt;&lt;p style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;Lifecycle, Closeable&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -69,6 +69,24 @@
         </mxCell>
         <mxCell id="RlZUK_MxkL_xjFFGA7Wm-23" value="객체의 생명주기를 관리하고 자원을 닫는 기능을 지원한다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="765" y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RlZUK_MxkL_xjFFGA7Wm-24" value="Abstrict&lt;div&gt;ApplicationContext&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlZUK_MxkL_xjFFGA7Wm-25" value="Generic&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ApplicationContext&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlZUK_MxkL_xjFFGA7Wm-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="RlZUK_MxkL_xjFFGA7Wm-24" target="RlZUK_MxkL_xjFFGA7Wm-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="480" as="sourcePoint" />
+            <mxPoint x="540" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RlZUK_MxkL_xjFFGA7Wm-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RlZUK_MxkL_xjFFGA7Wm-25" target="RlZUK_MxkL_xjFFGA7Wm-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="480" as="sourcePoint" />
+            <mxPoint x="540" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
